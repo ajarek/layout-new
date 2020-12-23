@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+height: 100%;
+width: 100%;
+
+}
+.nr1,.nr3{
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+    position: relative;
+ z-index: 1;
+}
+.nr1 h1,.nr3 h1{
+    font-size: 20rem;
+    transform: translateX(30px);
+    color: gray;
+}
+.p1,.p3{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+}
+.p1 p,.p3 p{
+    margin:0 40px;
+}
+.p1 h2,.p3 h2{
+    margin: 0 40px;
+    font-size: 2rem;
+}
+.nr2,.nr4{
+    
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+    position: relative;
+ z-index: 1;
+}
+.nr2 h1,.nr4 h1{
+    font-size: 20rem;
+    transform: translateX(-30px);
+    color: gray;
+}
+.f2,.f4{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+}
+.f2 p,.f4 p{
+    margin:0 40px;
+}
+.f2 h2,.f4 h2{
+    margin: 0 40px;
+    font-size: 2rem;
+}
